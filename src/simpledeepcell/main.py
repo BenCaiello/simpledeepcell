@@ -1,4 +1,4 @@
-### DeppCell-tf-0.12.4 License:
+### DeepCell-tf-0.12.4 License:
 # Copyright 2016-2023 The Van Valen Lab at the California Institute of
 # Technology (Caltech), with support from the Paul Allen Family Foundation,
 # Google, & National Institutes of Health (NIH) under Grant U24CA224309-01.
@@ -26,7 +26,7 @@
 # ==============================================================================
 
 
-#### DeppCell-toolbox-0.12.0 license
+#### DeepCell-toolbox-0.12.0 license
 # Copyright 2016-2022 The Van Valen Lab at the California Institute of
 # Technology (Caltech), with support from the Paul Allen Family Foundation,
 # Google, & National Institutes of Health (NIH) under Grant U24CA224309-01.
@@ -53,7 +53,11 @@
 # limitations under the License.
 # ============================================================================
 '''
-This is the 
+This is the compiled minimal code from deepcell-tf and deepcell-toolbox required to run Mesmer from Steinbock code, with redundancies & unneceessary imports removed. 
+
+It was made by tracking backwards along relative / package imports starting from the Mesmer class object in deepcell-tf, 
+taking only the referenced imported objects from the imported scripts + that new script's imports, then removing all un-referenced imports (as found by PyLance in VS code) 
+and duplicate imports. I repeated this, tracking back into various scripts in deepcell-tf and deepcell-toolbox, until only imports from python built-in modules or external packages remained. 
 '''
 
 from __future__ import absolute_import
