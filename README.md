@@ -1,4 +1,4 @@
-# DeepCell0.12.4Mesmer_Steinbock
+# simpledeepcell
 This is a mini-package of code directly copied from deepcell-tf (https://github.com/vanvalenlab/deepcell-tf), version 0.12.4 / deepcell-toolbox (https://github.com/vanvalenlab/deepcell-toolbox), version 0.12.0, but only retaining the portions of code needed to run Mesmer as implemented by the steinbock package (https://github.com/BodenmillerGroup/steinbock/tree/main/steinbock).
 
 Advantages: deepcell-toolbox requires VS buildtools to be successully installed by pip, which involves extra work outside of python/conda & involves a multi-gigabyte download (VS buildtools is BIG!). Additionally, using this package should cut down on the overall download size in other ways, as this package is much smaller that the full-size deepcell packages & does not require or download as many dependencies.
