@@ -10,7 +10,7 @@ So using this package may be good if you are only trying to use Mesmer, such as 
 
 To access the Mesmer segmentation, run:
 
-    from simpledeepcell import Mesmer
+    from simpledeepcell.main import Mesmer
 
 ## License:
 
