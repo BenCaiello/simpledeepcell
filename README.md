@@ -11,3 +11,7 @@ So using this package may be good if you are only trying to use Mesmer, such as 
 To access the Mesmer segmentation, run:
 
     from simpledeepcell import Mesmer
+
+## License:
+
+This package has the same license as the deepcell: a modified, non-commercial / academic-focused Apache license
