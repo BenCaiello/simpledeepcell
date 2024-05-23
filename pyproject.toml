@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "simpledeepcell"
-version = "0.1.1"
+version = "0.1.2"
 description = "Mesmer only code from deepcell-tf and deepcell-toolbox. simplifies import"
 authors = ["Ben Caiello <caiello@musc.edu>"]
 license = "modified Apache 2.0"
