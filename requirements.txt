@@ -1,9 +1,12 @@
 ### Requirements also taken in part from the deepcell-tf requirement.txt, and paired down to match what is actually imported by this package
 
+## EDIT 2/6/25 --> upper caps removed, keras<3.0.0 added. 
+
 numpy>=1.16.6
-scipy>=1.2.3,<2
+scipy>=1.2.3
 scikit-image>=0.19.3
-tensorflow~=2.8.0
-tensorflow_addons~=0.16.1
-opencv-python-headless~=4.9.0.80
+tensorflow>=2.8.0
+tensorflow_addons>=0.16.1
+opencv-python-headless>=4.9.0.80
+keras<3.0.0
 
